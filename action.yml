@@ -1,0 +1,23 @@
+name: "Apprise Action"
+description: "Apprise API integration"
+author: 'nikhilbadyal'
+inputs:
+  APPRISE_URL:
+    required: true
+    description: 'Apprise URL.'
+  APPRISE_NOTIFICATION_BODY:
+    required: false
+    description: 'Apprise Notification body.'
+  APPRISE_NOTIFICATION_TITLE:
+    required: false
+    description: 'Apprise Notification title.'
+  APPRISE_ATTACHMENTS:
+    required: false
+    description: 'Attachments to send.'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
