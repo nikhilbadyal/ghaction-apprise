@@ -1,4 +1,5 @@
 """Entrypoint."""
+
 from loguru import logger
 
 from src.apprise import send_message
