@@ -2,10 +2,10 @@
 
 import sys
 
+from apprise.common import NotifyFormat
 from loguru import logger
 
 import apprise
-from apprise.common import NotifyFormat
 
 # Local Imports
 from src.constant import apprise_attachments, apprise_notification_body, apprise_notification_title, apprise_url
