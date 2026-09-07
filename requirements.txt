@@ -1,4 +1,4 @@
-apprise==1.13.0
+apprise==1.13.1
 environs==15.1.0
 loguru==0.7.3
 pre-commit==4.6.2
